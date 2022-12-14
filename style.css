@@ -72,6 +72,9 @@
 }
 #about {
     margin-top: 150px;
+    background-image: url(photo/illustration\ about\ me\ desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 #about .about-title {
     font-size: 40px;
@@ -81,4 +84,41 @@
 }
 #about .container .supporting-text {
     color: #42526E;
+}
+#about #about-me-img {
+    position: absolute;
+    width: 288.04px;
+    height: 129.24px;
+    left: -52.62px;
+    top: 2330px;
+}
+#about .container .card {
+    width: 369px;
+    height: 352px;
+    border: 1px solid #c1c7d0;
+    background: #ebf0ee;
+    border-radius: 8px;
+    transition: all 0.5s ease-out;
+    margin: 40px 0px;
+}
+#about .container .card:hover {
+    transform: scale(1.05);
+}
+#about .container .card .about-img {
+    width: 120px;
+    height: 120px;
+    margin: 40px 0 10px 124px;
+}
+#about .container .card .card-body .card-title {
+    color: #344563;
+}
+#about .container .card .card-body .tag {
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    color: #36b37e;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
 }
