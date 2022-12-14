@@ -109,7 +109,7 @@
     height: 120px;
     margin: 40px 0 10px 124px;
 }
-#about .container .card .card-body .card-title {
+#about .container .card .card-body .card-title h5{
     color: #344563;
 }
 #about .container .card .card-body .tag {
@@ -121,4 +121,7 @@
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.03em;
+}
+#scrollspyHeading3 h5{
+    color: #344563;
 }
